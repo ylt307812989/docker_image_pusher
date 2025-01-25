@@ -1,6 +1,6 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# 转存redis最新版本镜像
+redis:latest
+
+
+# 示例：如果要指定架构和版本（以redis 7.2.0，linux/amd64架构为例）
+redis:7.2.0 --platform=linux
