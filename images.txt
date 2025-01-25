@@ -1,6 +1,5 @@
 # 转存redis最新版本镜像
-redis:latest
-
+ghcr.io/imagegenius/immich:latest
 
 # 示例：如果要指定架构和版本（以redis 7.2.0，linux/amd64架构为例）
-redis:7.2.0 --platform=linux
+ghcr.io/imagegenius/immich:latest --platform=linux
