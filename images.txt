@@ -2,10 +2,12 @@
 #ghcr.io/immich-app/immich-server:release 
 #ghcr.io/immich-app/immich-machine-learning:release
 #redis:6.2-alpine
-tensorchord/pgvecto-rs:pg14-v0.2.0
+#tensorchord/pgvecto-rs:pg14-v0.2.0
+deepseek:latest
 
 # 示例：如果要指定架构和版本（以redis 7.2.0，linux/amd64架构为例） 
 #ghcr.io/immich-app/immich-server:release  --platform=linux
 #ghcr.io/immich-app/immich-machine-learning:release --platform=linux
 #redis:6.2-alpine --platform=linux
-tensorchord/pgvecto-rs:pg14-v0.2.0 --platform=linux
+#tensorchord/pgvecto-rs:pg14-v0.2.0 --platform=linux
+deepseek:latest --platform=linux
