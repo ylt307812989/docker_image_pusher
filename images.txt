@@ -6,7 +6,8 @@
 #python:3.8
 #ollama
 #openjdk:17
-node:18-alpine
+#node:18-alpine
+nginx:alpine
 
 # 示例：如果要指定架构和版本（以redis 7.2.0，linux/amd64架构为例） 
 #ghcr.io/immich-app/immich-server:release  --platform=linux
@@ -16,4 +17,5 @@ node:18-alpine
 #python:3.8 --platform=linux
 #ollama --platform=linux
 #openjdk:17 --platform=window
-node:18-alpine --platform=linux
+#node:18-alpine --platform=linux
+nginx:alpine --platform=linux
