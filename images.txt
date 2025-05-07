@@ -8,7 +8,8 @@
 #openjdk:17
 #node:18-alpine
 #nginx:alpine
-python:3.11-slim
+#python:3.11-slim
+openjdk:8
 
 # 示例：如果要指定架构和版本（以redis 7.2.0，linux/amd64架构为例） 
 #ghcr.io/immich-app/immich-server:release  --platform=linux
@@ -20,4 +21,5 @@ python:3.11-slim
 #openjdk:17 --platform=window
 #node:18-alpine --platform=linux
 #nginx:alpine --platform=linux
-python:3.11-slim --platform=linux
+#python:3.11-slim --platform=linux
+openjdk:8 --platform=arm
