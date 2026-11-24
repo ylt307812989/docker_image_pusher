@@ -5,7 +5,7 @@
 #tensorchord/pgvecto-rs:pg14-v0.2.0
 #python:3.8
 #ollama
-#openjdk:17
+openjdk:17
 #node:18-alpine
 #nginx:alpine
 #python:3.11-slim
@@ -18,10 +18,9 @@
 #tensorchord/pgvecto-rs:pg14-v0.2.0 --platform=linux
 #python:3.8 --platform=linux
 #ollama --platform=linux
-#openjdk:17 --platform=window
+openjdk:17 --platform=linux
 #node:18-alpine --platform=linux
 #nginx:alpine --platform=linux
 #python:3.11-slim --platform=linux
 #openjdk:8 --platform=arm
 
-eclipse-temurin:17.0.21_9-jdk --platform=linux
