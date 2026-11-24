@@ -23,4 +23,5 @@
 #nginx:alpine --platform=linux
 #python:3.11-slim --platform=linux
 #openjdk:8 --platform=arm
-eclipse-temurin:17.0.21_9-jdk --platform=linux/arm64
+
+arm64v8/eclipse-temurin:17.0.21_9-jdk
