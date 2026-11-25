@@ -25,5 +25,5 @@
 #openjdk:8 --platform=arm
 
 #--platform=linux/arm64 eclipse-temurin:8u512-b09-jre-jammy
---platform=linux/arm64 eclipse-temurin:17.0.21.1-jre-jammy
+--platform=linux/arm64 eclipse-temurin:17-jre-jammy
 
