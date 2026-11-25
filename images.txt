@@ -26,4 +26,5 @@
 
 #--platform=linux/arm64 eclipse-temurin:8u512-b09-jre-jammy
 #--platform=linux/arm64 eclipse-temurin:17-jre-jammy
---platform=linux/amd64 eclipse-temurin:17-jre-jammy
+#--platform=linux/amd64 eclipse-temurin:17-jre-jammy
+--platform=linux/amd64 eclipse-temurin:8-jre-jammy
